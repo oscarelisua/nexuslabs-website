@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* NexusLabs Primary Colors */
+  --primary-deep: #173B8C;
+  --primary-blue: #1F4AA8;
+  --primary-cyan: #19B5E8;
+  --primary-cyan-light: #28C7F7;
+  
+  /* NexusLabs Secondary Colors */
+  --secondary-white: #FFFFFF;
+  --secondary-light: #F4F7FA;
+  --secondary-gray: #5E6B7A;
+  --secondary-dark: #111827;
+  
+  --background: #ffffff;
+  --foreground: #111827;
+}
+
+@theme inline {
+  /* Colors */
+  --color-primary-deep: var(--primary-deep);
+  --color-primary-blue: var(--primary-blue);
+  --color-primary-cyan: var(--primary-cyan);
+  --color-primary-cyan-light: var(--primary-cyan-light);
+  --color-secondary-white: var(--secondary-white);
+  --color-secondary-light: var(--secondary-light);
+  --color-secondary-gray: var(--secondary-gray);
+  --color-secondary-dark: var(--secondary-dark);
+  
+  /* Fonts */
+  --font-heading: 'Outfit', var(--font-geist-sans), system-ui, sans-serif;
+  --font-body: 'DM Sans', var(--font-geist-sans), system-ui, sans-serif;
+  
+  /* Animations */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+  --animate-slide-up: slideUp 0.6s ease-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 20px rgba(25, 181, 232, 0.5); }
+  100% { box-shadow: 0 0 40px rgba(25, 181, 232, 0.8); }
+}
+
+@keyframes slideUp {
+  0% { 
+    transform: translateY(30px); 
+    opacity: 0; 
+  }
+  100% { 
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  scroll-behavior: smooth;
+}
