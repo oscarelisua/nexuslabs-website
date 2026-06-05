@@ -28,7 +28,7 @@ export default function ServicesSection() {
   const serviceCategories = [
     {
       id: 0,
-      title: 'Infraestructura IT',
+      title: 'Soporte',
       icon: Server,
       color: 'from-[#173B8C] to-[#1F4AA8]',
       services: [
@@ -79,20 +79,6 @@ export default function ServicesSection() {
     },
     {
       id: 3,
-      title: 'Videovigilancia y Seguridad',
-      icon: Camera,
-      color: 'from-[#1F4AA8] to-[#173B8C]',
-      services: [
-        { icon: Camera, name: 'Cámaras IP' },
-        { icon: Camera, name: 'CCTV' },
-        { icon: Shield, name: 'Monitoreo' },
-        { icon: Lock, name: 'Control de acceso' },
-        { icon: Camera, name: 'Soluciones Pelco' },
-        { icon: Shield, name: 'Seguridad empresarial' },
-      ],
-    },
-    {
-      id: 4,
       title: 'Consultoría Tecnológica',
       icon: Lightbulb,
       color: 'from-[#28C7F7] to-[#19B5E8]',

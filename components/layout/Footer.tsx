@@ -63,11 +63,10 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
           >
             <div className="flex items-center space-x-3 mb-6">
-              <img
-                src="/logo.png"
-                alt="NexusLabs Logo"
-                className="h-12 w-auto brightness-0 invert"
-              />
+              <div className="w-12 h-12 bg-gradient-to-br from-[#19B5E8] to-[#28C7F7] rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-2xl">N</span>
+              </div>
+              <span className="text-3xl font-bold font-heading">NexusLabs</span>
             </div>
             <p className="text-white/80 mb-6 leading-relaxed">
               Transformando empresas mediante soluciones tecnológicas innovadoras

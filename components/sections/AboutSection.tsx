@@ -59,9 +59,9 @@ export default function AboutSection() {
   ];
 
   const stats = [
-    { label: 'Clientes Activos', value: 150, suffix: '+' },
-    { label: 'Proyectos Completados', value: 500, suffix: '+' },
-    { label: 'Años de Experiencia', value: 5, suffix: '+' },
+    { label: 'Clientes Activos', value: 10, suffix: '+' },
+    { label: 'Proyectos Completados', value: 50, suffix: '+' },
+    { label: 'Años de Experiencia', value: 3, suffix: '+' },
     { label: 'Tasa de Satisfacción', value: 99, suffix: '%' },
   ];
 

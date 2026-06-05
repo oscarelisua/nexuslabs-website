@@ -157,7 +157,7 @@ export default function WhyChooseUsSection() {
           className="mt-16 text-center"
         >
           <p className="text-lg text-[#5E6B7A] mb-6">
-            Más de <strong className="text-[#173B8C]">150 empresas</strong> ya
+            Más de <strong className="text-[#173B8C]">10 empresas</strong> ya
             confiaron en nosotros
           </p>
           <motion.a
