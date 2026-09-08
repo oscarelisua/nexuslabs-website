@@ -42,9 +42,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-3"
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-[#173B8C] to-[#19B5E8] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">N</span>
-            </div>
+            <img src="/logo.png" alt="NexusLabs" className="h-10 w-auto" />
             <span
               className={`text-2xl font-bold font-heading transition-colors ${
                 isScrolled ? 'text-[#173B8C]' : 'text-white'
