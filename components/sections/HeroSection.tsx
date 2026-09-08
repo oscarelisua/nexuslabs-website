@@ -159,8 +159,8 @@ export default function HeroSection() {
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
         >
           {[
-            { value: '10+', label: 'Empresas' },
-            { value: '50+', label: 'Proyectos' },
+            { value: '5+', label: 'Empresas' },
+            { value: '30+', label: 'Proyectos' },
             { value: '3+', label: 'Años' },
             { value: '99%', label: 'Satisfacción' },
           ].map((stat, index) => (
