@@ -2,6 +2,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';
+import ClientsSection from '@/components/sections/ClientsSection';
 import ServicesSection from '@/components/sections/ServicesSection';
 import PortfolioSection from '@/components/sections/PortfolioSection';
 import WhyChooseUsSection from '@/components/sections/WhyChooseUsSection';
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <ClientsSection />
       <ServicesSection />
       <PortfolioSection />
       <WhyChooseUsSection />
