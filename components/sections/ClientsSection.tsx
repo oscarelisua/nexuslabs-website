@@ -2,12 +2,11 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { Store } from 'lucide-react';
 
 const clients = [
   { name: 'Orígenes S.R.L.', logo: '/clientes/origenes.png' },
   { name: 'Drovandi Distribuciones', logo: '/clientes/drovandi.png' },
-  { name: 'Sukha by Florian', logo: '/clientes/sukha-florian.png' },
-  { name: 'Familia Anabel', logo: '/clientes/familia-anabel.png' },
 ];
 
 export default function ClientsSection() {
@@ -27,11 +26,11 @@ export default function ClientsSection() {
             Clientes
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-[#173B8C] mt-4 font-heading">
-            Empresas que confían en nosotros
+            Empresas con las que trabajamos
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {clients.map((client, index) => (
             <motion.div
               key={client.name}
@@ -53,6 +52,19 @@ export default function ClientsSection() {
               </p>
             </motion.div>
           ))}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: clients.length * 0.1 }}
+            className="bg-[#F4F7FA] rounded-2xl p-6 flex flex-col items-center justify-center border border-gray-100 text-center"
+          >
+            <div className="h-32 flex items-center justify-center">
+              <Store className="w-14 h-14 text-[#19B5E8]" />
+            </div>
+            <p className="mt-4 font-semibold text-[#173B8C]">
+              Negocios gastronómicos y comerciales
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -23,16 +23,15 @@ export default function Footer() {
 
   const footerLinks = {
     servicios: [
-      { label: 'Infraestructura IT', href: '#servicios' },
-      { label: 'Desarrollo Web', href: '#servicios' },
-      { label: 'Business Intelligence', href: '#servicios' },
-      { label: 'Videovigilancia', href: '#servicios' },
+      { label: 'Aplicaciones móviles', href: '#servicios' },
+      { label: 'Tableros de control', href: '#servicios' },
+      { label: 'Integración con ERP', href: '#servicios' },
+      { label: 'Automatización administrativa', href: '#servicios' },
       { label: 'Consultoría', href: '#servicios' },
     ],
     empresa: [
       { label: 'Nosotros', href: '#nosotros' },
-      { label: 'Servicios', href: '#servicios' },
-      { label: 'Portfolio', href: '#trabajos' },
+      { label: 'Soluciones', href: '#servicios' },
       { label: 'Contacto', href: '#contacto' },
     ],
   };

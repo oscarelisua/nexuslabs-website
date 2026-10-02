@@ -119,8 +119,8 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto font-body"
         >
-          Infraestructura IT, automatización, desarrollo y soluciones digitales
-          diseñadas para empresas modernas.
+          Aplicaciones, tableros de control y automatización a medida,
+          diseñados para ordenar y hacer crecer su empresa.
         </motion.p>
 
         <motion.div
